@@ -1,0 +1,137 @@
+.single__course_more_info {
+    background-color: #16892b;
+    background-image: url(/assets/images/iconMongo.png);
+    background-size: cover;
+    background-position: center;
+    max-height: 424px;
+}
+
+.boxBlur {
+    padding: 24px 24px 0;
+    border-radius: 12px;
+    -webkit-backdrop-filter: blur(40px);
+    backdrop-filter: blur(40px);
+    background-color: #EEFFD633;
+    max-width: 560px;
+    height: 299px;
+    overflow-y: auto;
+}
+
+.singleCourseTitle h2 {
+    color: #121212;
+    font-weight: 700;
+    font-size: 28px;
+}
+
+.course__info__description {
+    max-width: 512px;
+    height: 20px;
+    font-weight: 400;
+    font-size: 18px;
+    color: #121212;
+    line-height: 20.09px;
+}
+
+@media (max-width: 1200px) {
+    .boxBlur {
+        max-width: 350px;
+        margin: auto;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .imgSingleCourse {
+        max-width: 350px;
+        margin: auto;
+        max-height: 250px;
+        margin-bottom: 20px;
+    }
+
+    .detailsCourse {
+        bottom: -250px !important;
+        max-width: 320px !important;
+    }
+}
+
+.detailsCourse {
+    position: absolute;
+    bottom: -200px;
+    max-width: 506px;
+    background-color: #FAFDFF;
+    border-radius: 8px;
+    box-shadow: 8px 0 16px #0000001A;
+}
+
+.single_course_content {
+    position: relative;
+    max-width: 570px;
+}
+
+.imgSingleCourse img {
+    border-radius: 12px;
+    max-width: 570px;
+    height: 323px;
+}
+
+.questions {
+    padding-bottom: 10px;
+    position: relative;
+}
+
+.questions::after {
+    content: "";
+    max-width: 70%;
+    height: 1px;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hours img,
+.questions img {
+    display: inline-block;
+    margin-left: 8px;
+    max-width: 16px;
+    height: 16px;
+}
+
+.questionText,
+.clockText {
+    color: #12121280;
+}
+
+.btnLink {
+    background-color: var(--text-Home);
+    max-width: 474px;
+    height: 50px;
+    padding: 10px 24px;
+    margin-top: 20px;
+    border-radius: 12px;
+    border: 1px solid var(--text-Home);
+}
+
+.price__date {
+    max-width: 474px;
+    height: 45px;
+    margin-top: 10px;
+}
+
+.price__date span {
+    font-size: 14px;
+}
+
+.price__date img {
+    max-width: 16px;
+    height: 16px;
+}
+
+.price__date button {
+    max-width: 120px;
+    height: 40px;
+    background-color: #66A03B1A;
+    border-radius: 8px;
+    border: 1px solid #66A03B;
+    padding: 10px 24px;
+}

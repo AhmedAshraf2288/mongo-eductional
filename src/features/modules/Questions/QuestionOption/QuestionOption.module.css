@@ -1,0 +1,30 @@
+.answer {
+  cursor: pointer;
+  transition: 0.3s;
+  display: flex;
+  align-items: center;
+  font-size: 20px;
+  font-weight: 500;
+  
+}
+
+.answer__checkbox {
+  width: 15px;
+  height: 15px;
+  
+}
+
+.question_option_image{
+  max-width: 200px;
+}
+.question_option_image img{
+  object-fit: contain;
+}
+
+.answer__text{
+  line-height: 1;
+  padding-top: 3px;
+  cursor: pointer;
+  color : var(--text-dark);
+  font-size: 20px;
+}

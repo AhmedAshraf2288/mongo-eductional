@@ -1,0 +1,15 @@
+.progress__bar__cont{
+  border: var(--border);
+  height: 6px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.progress__bar{
+  background-color: black;
+  height: 100%;
+}
+
+.progress__text{
+  font-size: 12px;
+}

@@ -1,0 +1,28 @@
+.content {
+  width: 140px;
+  height: 44px;
+  padding: 6px 6px 6px 16px;
+  border-radius: 8px;
+  background-color: #EEFFD6;
+  display: flex;
+  align-items: center;
+}
+.imgContent{
+  width: 32px;
+  height: 32px;
+  border-radius: 4px;
+  padding: 8px;
+  background-color: #FDC766;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.imgContent img{
+  width: 16px;
+  height: 16px;
+}
+@media (max-width: 991px) {
+  .course__content {
+    font-size: 24px;
+  }
+}

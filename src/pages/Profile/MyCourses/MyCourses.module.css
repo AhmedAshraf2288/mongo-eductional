@@ -1,0 +1,13 @@
+.btnCourse{
+  width: 240px;
+  height: 50px;
+  align-self: flex-end;
+  padding: 13px 24px;
+  border-radius: 12px;
+  background-color: #FFA501;
+}
+
+
+[data-theme="dark"] .home_last__my_courses_btn {
+  color: black !important;
+} 

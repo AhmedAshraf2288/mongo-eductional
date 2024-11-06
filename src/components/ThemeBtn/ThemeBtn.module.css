@@ -1,0 +1,13 @@
+.btn{
+  border-radius: 50px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-image: url("/assets/images/NavImages/switchDark.png");
+  padding: 2px;
+}
+
+[data-theme="dark"] .btn {
+  background-image: url("/assets/images/NavImages/switchLight.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}

@@ -1,0 +1,11 @@
+.course__content{
+  padding: 12px;
+  border: 1px solid var(--primary);
+  border-radius: var(--border-radius);
+}
+
+@media (max-width: 769px) {
+  .course__content{
+    padding: 10px;
+  }
+}

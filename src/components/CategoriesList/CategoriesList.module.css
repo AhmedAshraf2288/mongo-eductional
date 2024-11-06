@@ -1,0 +1,98 @@
+.categories_list {
+  background-image: url("/assets/images/iconMongo.png");
+  background-color: #3D7F58;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 1;
+}
+
+.categories_list::after {
+  content: "";
+  position: absolute;
+  max-width: 100%;
+  max-height: 100%;
+  inset: 0;
+  background-color: #66A03B80;
+  z-index: -1;
+}
+
+.imgMongo {
+  max-width: 547.41px;
+  max-height: 540px;
+  transform: rotateY(-180deg);
+}
+
+
+
+.academicHead {
+  max-width: 291px;
+  max-height: 62px;
+  padding: 12px 24px;
+  border-radius: 8px;
+  background-color: rgba(231, 231, 231, 0.55);
+  -webkit-backdrop-filter: blur(70px);
+  backdrop-filter: blur(70px);
+  color: white;
+}
+
+
+
+[data-theme="dark"] .title {
+  color: #000 !important;
+}
+
+
+
+
+
+.categories_list {
+  padding: 20px;
+}
+
+.academicHead {
+  font-size: 34px;
+  /* الحجم الافتراضي */
+}
+
+.imgMongo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media (max-width: 992px) {
+  .academicHead {
+    font-size: 28px;
+    /* حجم أصغر للشاشات الأصغر */
+  }
+
+  .imgMongo {
+    display: none;
+    /* إخفاء الصورة على الشاشات الصغيرة */
+  }
+
+  .categories_list {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .academicHead {
+    font-size: 24px;
+    /* حجم أصغر للشاشات الأصغر */
+  }
+
+  .d-flex {
+    flex-direction: column;
+    /* تغيير الاتجاه إلى عمودي */
+    align-items: center;
+    /* محاذاة العناصر في الوسط */
+  }
+
+  .imgMongo {
+    margin-top: 20px;
+    /* إضافة مسافة أعلى الصورة إذا كانت مرئية */
+  }
+}

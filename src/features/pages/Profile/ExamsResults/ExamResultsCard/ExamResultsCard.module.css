@@ -1,0 +1,7 @@
+.answer_image{
+    max-width: 300px;
+}
+.selectedAnswer_image{
+    max-width: 100px;
+    border-radius: 12px;
+}

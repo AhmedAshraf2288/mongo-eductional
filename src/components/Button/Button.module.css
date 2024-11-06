@@ -1,0 +1,126 @@
+
+
+.button {
+  border: 0;
+  padding: 16px 24px;
+  background-color: #66A03B; /* لون الخلفية */
+  box-shadow: 0px 4px 6px 0px #00000040;
+  color: white; /* لون النص */
+  border-radius: 20px;
+  transition: 0.3s;
+  white-space: nowrap;
+  width: fit-content;
+  display: flex;
+  align-items: center;
+  border: 1px solid transparent;
+  gap: 10px;
+  font-size: 16px;
+  font-family: "Tajawal", sans-serif !important;
+}
+
+
+
+
+
+.button--big-padding {
+  padding: 16px 100px;
+  font-size: 18px;
+  font-weight: bolder;
+}
+
+.button--rounded {
+  border-radius: 50px;
+}
+
+
+
+
+
+
+
+.button a {
+  background-color: #66A03B; /* لون الخلفية */
+  color: white; /* لون النص */
+  text-decoration: none;
+}
+
+.button__primary {
+  border-color: #66A03B; /* لون الحدود */
+  background-color: #66A03B; /* لون الخلفية */
+  color: white; /* لون النص */
+  font-family: "Roboto", sans-serif;
+}
+
+.button__secondary {
+  border: 1px solid #66A03B; /* لون الحدود */
+  background-color: white; /* لون الخلفية */
+  color: #66A03B; /* لون النص */
+}
+
+.button__blue {
+  border: 1px solid transparent;
+  background-color: #e95352; /* لون الخلفية */
+  color: white; /* لون النص */
+}
+
+.button__red {
+  border: 1px solid #e95352; /* لون الحدود */
+  background-color: #e95352; /* لون الخلفية */
+  color: white; /* لون النص */
+}
+
+.button__red:hover {
+  background-color: #d84315; /* لون الخلفية عند التمرير */
+}
+
+.button__tertiary {
+  border: 1px solid #e95352; /* لون الحدود */
+  background-color: #f2b2b2; /* لون الخلفية */
+  color: #7d0000; /* لون النص */
+}
+
+.button__dark {
+  background-color: #e95352; /* لون الخلفية */
+  color: white; /* لون النص */
+}
+
+.button__blue-dark {
+  background-color: #e95352; /* لون الخلفية */
+  color: white; /* لون النص */
+  border: 1px solid transparent;
+}
+
+.button__blue-dark:hover {
+  background-color: white; /* لون الخلفية عند التمرير */
+  color: #e95352; /* لون النص عند التمرير */
+  border: 1px solid #e95352; /* لون الحدود عند التمرير */
+}
+
+.button__blue-dark-border {
+  background-color: white; /* لون الخلفية */
+  color: #e95352; /* لون النص */
+  border: 1px solid #e95352; /* لون الحدود */
+}
+
+.button__blue-dark-border:hover {
+  background-color: #e95352; /* لون الخلفية عند التمرير */
+  color: white; /* لون النص عند التمرير */
+}
+
+.button__success {
+  background-color: #e95352; /* لون الخلفية */
+  color: white; /* لون النص */
+}
+
+.button:disabled {
+  cursor: not-allowed;
+}
+
+[data-theme="dark"] .button__primary {
+  color: red; /* لون النص */
+}
+
+[data-theme="dark"] .button__secondary {
+  color: #e95352; /* لون النص */
+  background-color: black; /* لون الخلفية */
+}

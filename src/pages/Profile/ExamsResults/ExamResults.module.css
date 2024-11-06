@@ -1,0 +1,41 @@
+.boxDetailsResult {
+    width: 984px;
+    background-color: #EEFFEE;
+    border: 1px solid #12121226;
+    border-radius: 12px;
+    padding: 40px;
+}
+
+.headName,
+.headDegree {
+    color: #797979;
+}
+
+.name,
+.resultDegree,
+.btnReviewResults button,
+.btnDetailsDegree button {
+    color: #121212
+}
+
+.btnReviewResults button {
+    width: 240px;
+    height: 50px;
+    border-radius: 12px;
+    border: 1px solid #FFA501;
+    padding: 10px 24px;
+    background-color: #FFA501;
+    transition: all 300ms ease-out;
+}
+
+.btnReviewResults button:hover {
+background-color: #d9910a;
+}
+
+.btnDetailsDegree button {
+    width: 180px;
+    height: 50px;
+    border-radius: 12px;
+    padding: 10px 24px;
+    border: 1px solid #12121233;
+}

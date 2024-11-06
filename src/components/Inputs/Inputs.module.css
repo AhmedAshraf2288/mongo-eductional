@@ -1,0 +1,98 @@
+.input,
+.date input {
+  border: 1px solid #8F8F8F;
+  padding: 10px 15px;
+  height: 46px;
+  outline: 0;
+  transition: .3s;
+  border: 0;
+  border-bottom: 1px solid rgba(0 0 0 / .6);
+  background-color: transparent;
+}
+
+.select {
+  height: 59px;
+  margin: 0 !important;
+}
+
+.select>div:nth-child(3) {
+  height: 100%;
+  border: 1px solid #8F8F8F;
+  outline: none;
+  box-shadow: none;
+  border-radius: 14px !important;
+}
+
+.select>div:nth-child(3)>div:nth-child(2)>span {
+  background-color: #8F8F8F;
+}
+
+.text-area {
+  min-height: 100px;
+}
+
+.input__label {
+  white-space: nowrap;
+}
+
+.icon {
+  color: var(--primary) !important;
+}
+
+[data-theme="dark"] {
+  .icon {
+    color: var(--tertary);
+  }
+
+  .input,
+  .date input {
+    background-color: transparent;
+    border-bottom: 1px solid rgba(159, 159, 159, 0.6);
+    color: white;
+   
+  }
+
+  :global(.css-13cymwt-control),
+  :global(.css-t3ipsp-control) {
+    color: white;
+    background-color: transparent !important;
+  }
+
+  :global(.css-13cymwt-control) *,
+  :global(.css-t3ipsp-control) * {
+    color: white;
+  }
+
+  .select * {
+    color: white;
+  }
+}
+
+.fileInput {
+  display: flex;
+  width: 100%;
+  border-radius: 12px;
+  overflow: hidden;
+  cursor: pointer;
+  background-color: #f1f1f1;
+}
+
+.fileInput span {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: max-content;
+  background-color: var(--secondary);
+  color: #fbfbfb;
+  padding: 10px 24px;
+}
+
+.fileInput p {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  color: black;
+  background-color: #9E9E8E;
+  padding: 10px 12px;
+  width: 100%;
+}

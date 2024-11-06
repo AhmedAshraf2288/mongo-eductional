@@ -1,0 +1,15 @@
+.watch_course__content {
+  background-color: hsl(210, 4%, 91%);
+  padding: 25px;
+  border-radius: var(--border-radius);
+}
+
+[data-theme="dark"] .watch_course__content {
+  background-color: #232526;
+}
+
+@media (max-width: 991px) {
+  .watch_course__content {
+    padding: 5px;
+  }
+}

@@ -1,0 +1,25 @@
+.imgContainer {
+    width: 100%;
+    max-width: 360px;
+    aspect-ratio: 1/1;
+}
+
+.arrowIcon {
+    width: 120px;
+}
+
+.detailsContainer {
+    max-width: 480px;
+    text-align: center;
+}
+
+@media screen and (max-width: 780px) {
+    .rowContainer {
+        flex-direction: column-reverse;
+        gap: 4rem !important;
+    }
+
+    .arrowIcon {
+        display: none;
+    }
+}

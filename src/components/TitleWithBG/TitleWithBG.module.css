@@ -1,0 +1,20 @@
+.card__title {
+  position: relative;
+  width: 100%;
+  max-width: 200px;
+  white-space: nowrap;
+  margin: auto;
+  height: 90px;
+}
+
+.card__title__text,
+.card__title__bg {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__title__text {
+  font-size: 24px;
+}

@@ -1,0 +1,9 @@
+.single__course__content-lesson{
+  background-color: #9fe1ca;
+}  
+
+.single__course__content-lesson-content{
+  background-color: var(--primary);
+  border-radius: var(--border-radius);
+  padding: 15px;
+}

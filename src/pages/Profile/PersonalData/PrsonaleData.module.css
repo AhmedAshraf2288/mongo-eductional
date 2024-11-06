@@ -1,0 +1,89 @@
+.profile-info {
+  max-width: 700px;
+  margin: auto;
+}
+
+.student__info {
+  border: 1px solid var(--primary);
+  padding: 16px 24px;
+  border-radius: var(--border-radius);
+  text-align: start;
+  width: 100%;
+  color: var(--text-dark);
+}
+
+.student__info>div:not(:last-child) {
+  border-bottom: 1px solid var(--primary);
+  padding: 16px 0;
+}
+
+
+.percentage__cont {
+  border-radius: var(--border-radius);
+  border: 1px solid #0000006b;
+  padding: 24px 4px;
+  height: 100%;
+  background-color: #fff;
+}
+
+.circle__progres__bar {
+  border: 1px solid #DADADA;
+  border-radius: 50%;
+  padding: 1px;
+}
+
+
+
+.percentage__cont h6 {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.activity__info__title h6 {
+  margin-bottom: 24px !important;
+  font-size: 22px;
+
+}
+
+.activity__content {
+  background-color: var(--primary-light);
+  padding: 16px;
+  border-radius: 20px;
+}
+
+.activity__img {
+  border-radius: 20px;
+  overflow: hidden;
+}
+
+.homeLast__activity_created_at {
+  color: var(--text-color);
+}
+
+.home_last__activity_btn {
+  background-color: var(--box-light-green);
+  padding: 16px 24px 16px 24px;
+  border: none;
+  color: black !important;
+}
+
+[data-theme="dark"] .home_last__activity_btn {
+  color: black !important;
+}
+
+[data-theme="dark"] .student__info {
+  background-color: #1A1A1A;
+}
+
+[data-theme="dark"] .percentage__cont {
+  border: 1px solid hsla(0, 0%, 100%, 0.45);
+
+}
+
+[data-theme="dark"] .percentage__cont {
+  background-color: var(--primary-light);
+}
+[data-theme="dark"] .student__info {
+  border: 1px solid #73B342;
+  
+}

@@ -1,0 +1,23 @@
+.registerPage {
+  height: 1240px;  
+  background-color: var(--bg-generl);
+}
+.formRegister{
+  height: 1190px;
+}
+
+.link {
+  color: var(--primary) !important;
+}
+
+[data-theme="dark"] .link {
+  color: var(--primary) !important;
+}
+
+.go_to_account_link {
+  color: var(--red);
+}
+
+[data-theme="dark"] .go_to_account_link {
+  color: var(--red) !important;
+}

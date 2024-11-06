@@ -1,0 +1,44 @@
+.switch-checkbox {
+  height: 0;
+  width: 0;
+  visibility: hidden;
+}
+
+.switch-label {
+  display: flex;
+  cursor: pointer;
+  width: 79px;
+  height: 39px;
+}
+
+.switch-label .switch-button {
+  content: "";
+  position: absolute;
+  top: 5px;
+  left: 4px;
+  width: 29px;
+  height: 29px;
+  border-radius: 50%;
+  transition: 0.2s;
+  background: linear-gradient(#c8d7ff, var(--primary-light));
+  box-shadow: inset 0 -4px 1px #adb7cd;
+  transition: ease-in-out 0.3s;
+}
+
+[data-theme="dark"] .switch-label .switch-button {
+  background-image: url("/assets/icons/NavIcons/SwitchPointLight.svg");
+  background-size: 100px;
+  background-position: center;
+  box-shadow: inset 0 -4px 1px transparent;
+}
+.switch-checkbox:checked + .switch-label .switch-button {
+  left: calc(100% - 4px);
+  transform: translateX(-100%);
+}
+
+
+@media (max-width: 768px) {
+  .switch-label{
+    width: 60px;
+  }
+}

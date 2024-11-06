@@ -1,0 +1,49 @@
+.lecture_tab_empty {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.watch_course_lecture {
+  background-color: var(--primary-light);
+  padding: 16px;
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.watch_course_lecture__img {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.watch_course__lecture_content h6 {
+  margin-bottom: 8px;
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.watch_course__lecture_content p{
+  font-size: 18px;
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+
+
+.home_last__my_courses_btn {
+  background-color: var(--box-light-green);
+  font-size: 23.33px;
+  border: none;
+  border-radius: 50%;
+  width: 65px;
+  height: 65px;
+  color: black !important;
+  padding: 0;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+}
+[data-theme="dark"] .home_last__my_courses_btn {
+  color: black !important;
+}

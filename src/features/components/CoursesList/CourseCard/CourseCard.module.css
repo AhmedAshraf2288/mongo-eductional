@@ -1,0 +1,141 @@
+.card {
+  max-width: 424px;
+  max-width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 16px;
+  border-radius: 20px;
+  background-color: var(--bg-box);
+  box-shadow: 0px 7px 14px -10px black;
+  transition: all .5s;
+}
+
+.card__image {
+  width: 100%;
+  height: 250px;
+  flex-shrink: 0;
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.card__image img {
+  transform: scale(1);
+  transition: all .3s;
+}
+
+.card:hover .card__image img {
+  transform: scale(1.1);
+}
+
+.card__body {
+  max-width: 95%;
+  padding: 16px 16px 24px;
+  position: relative;
+  z-index: 1;
+  top: -20px;
+  border-radius: 12px;
+  background-color: var(--bg-box);
+  box-shadow: 0px 7px 14px -10px black;
+  transition: all .5s;
+}
+
+.card:hover .card__body {
+  top: -35px;
+  box-shadow: 0px 7px 22px -10px black;
+}
+
+.card__body__text {
+  color: #797979;
+  width: 230px;
+  height: 356px;
+  background-color: #EEFFEE;
+  margin-bottom: 16px;
+  line-height: 26px;
+  overflow: auto;
+  border: 1px solid #66A03B;
+  border-radius: 4px;
+}
+
+.card__body_title {
+  color: #121212;
+}
+
+.calenderDate {
+  color: #121212;
+}
+
+.cardBodyLink {
+  border-radius: 8px;
+  width: 120px;
+  height: 40px;
+  padding: 10px 14px;
+}
+
+.btnCardDetails,
+.btnCardPrice {
+  background-color: #FFFFFF;
+  color: #66A03B;
+  border: 1px solid #66A03B;
+  max-width: 140px !important;
+  max-height: 40px !important;
+}
+
+[data-theme="dark"] .btnCardPrice {
+  background-color: #0D0D0D;
+  color: #66A03B;
+}
+
+[data-theme="dark"] .btnCardDetails {
+  background-color: #0D0D0D;
+  color: #66A03B;
+}
+
+[data-theme="dark"] .card__body_title {
+  color: white;
+}
+
+[data-theme="dark"] .btnCardDetails span {
+  color: #66A03B;
+}
+
+[data-theme="dark"] .btnSubscribe span {
+  color: #0D0D0D;
+}
+
+[data-theme="dark"] .calenderDate {
+  color: #FFFFFF;
+}
+
+[data-theme="dark"] .card__body__text {
+  color: #797979;
+  background-color: #151515;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .card__body__text {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .card__body__text {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .card__body__text {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (min-width: 993px) {
+  .card__body__text {
+    width: 230px;
+    height: 356px;
+  }
+}

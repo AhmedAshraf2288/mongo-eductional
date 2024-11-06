@@ -1,0 +1,16 @@
+.otp__input-div{
+  width: 100%;
+  max-width: 60px;
+  aspect-ratio: 1 / 1;
+  
+}
+
+.otp__input{
+  text-align: center;
+  padding: 0 !important;
+  
+}
+
+.otp__input--done{
+  border: 2px solid rgb(0, 206, 0);
+}

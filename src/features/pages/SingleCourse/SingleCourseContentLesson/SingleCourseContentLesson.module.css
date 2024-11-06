@@ -1,0 +1,14 @@
+/* .single__course__content-lesson{
+  background-color: var(--primary-light);
+}  
+
+.single__course__content-lesson-content{
+  background-image: var(--primary-gradient-light);
+  border-radius: var(--border-radius);
+  padding: 15px;
+
+}
+
+[data-theme=dark] .single__course__content-lesson-content{
+  color: #000;
+} */

@@ -1,0 +1,38 @@
+.watchCourseQuiz__summary{
+  background-color: rgba(242, 242, 243, 1);
+  width: 100%;
+  max-width: 470px;
+  padding: 24px;
+  border-radius: 12px;
+  font-size: 22px;
+}
+
+.watchCourseQuiz__summary-number{
+  width: 52px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  border: 1px solid white;
+  border-radius: 5px;
+}
+
+.watchCourseQuiz__summary-number--yellow{
+  background-color: rgba(240, 204, 111, 1);
+}
+.watchCourseQuiz__summary-number--blue{
+  background-color: rgba(76, 185, 231, 1);
+}
+.watchCourseQuiz__summary-number--red{
+  background-color: rgba(255, 126, 132, 1);
+
+}
+.watchCourseQuiz__summary-number--gray{
+  background-color: transparent;
+  color: var(--primary);
+  border-color: var(--primary);
+}
+.watchCourseQuiz__summary-number--primary{
+  background-color: var(--primary);
+}

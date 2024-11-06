@@ -1,0 +1,133 @@
+.home {
+  background-color: var(--bg-home);
+  height: 960px;
+  position: relative;
+}
+
+.partTreeHome {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.partTreeMangoHome__gif {
+  width: 250px;
+}
+
+.mangoHome__gif {
+  position: absolute;
+  width: 80px;
+  left: 13%;
+  top: 38%;
+}
+
+.smallTreeHome__png {
+  width: 100px;
+  position: absolute;
+  right: 0;
+  bottom: 110px;
+}
+
+.cloud {
+  position: absolute;
+  top: 20px;
+}
+
+.cloud1 {
+  width: 100px;
+  height: 100px;
+  transform: translateX(50px);
+}
+
+.cloud2 {
+  width: 200px;
+  height: 200px;
+}
+
+.textHome span {
+  color: #121212;
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.textHome h1 {
+  color: var(--text-Home);
+}
+
+.textHome p {
+  width: 75%;
+  color: rgba(18, 18, 18, 0.5);
+  line-height: 2;
+}
+
+.subscribeNow__btn,
+.myCourses__btn {
+  background-color: var(--text-Home);
+  padding: 10px 24px;
+  border-radius: 12px;
+  border: 1px solid var(--text-Home);
+  margin-top: 5px;
+  color: #121212;
+}
+
+.myCourses__btn {
+  transition: all 0.5s;
+}
+
+.myCourses__btn:hover {
+  background-color: #d48a00;
+}
+
+[data-theme="dark"] .home {
+  background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .textHome p,
+[data-theme="dark"] .textHome span {
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .f-size-38 {
+    font-size: 28px;
+  }
+  .f-size-18 {
+    font-size: 16px;
+  }
+  .w-100 {
+    width: 100%;
+  }
+  .f-size-44 {
+    font-size: 28px;
+  }
+  .f-size-20 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 576px) {
+  .f-size-38 {
+    font-size: 24px;
+  }
+}
+
+@media (max-width: 992px) {
+  .f-size-44 {
+    font-size: 36px;
+  }
+  .f-size-20 {
+    font-size: 18px;
+  }
+  .w-50 {
+    width: 100%;
+  }
+}
+
+@media (max-width: 991px) {
+  .f-size-44 {
+    font-size: 30px;
+  }
+  .f-size-20 {
+    font-size: 16px;
+  }
+}

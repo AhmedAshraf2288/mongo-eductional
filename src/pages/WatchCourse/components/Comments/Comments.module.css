@@ -1,0 +1,13 @@
+.userImage {
+    width: 64px;
+    height: 64px;
+    margin-inline-end: 1rem;
+}
+
+@media screen and (max-width: 480px) {
+    .userImage {
+        width: 32px;
+        height: 32px;
+        margin-inline-end: 0.5rem;
+    }
+}

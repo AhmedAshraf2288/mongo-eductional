@@ -1,0 +1,27 @@
+.number__block{
+  border-radius: 50px;
+  background-color: #4740a7;
+  width: fit-content;
+  padding: 10px 25px;
+  color: white;
+}
+
+.number__block__number{
+  position: relative;
+  z-index: 1;
+}
+
+.number__block__title{
+  transform: translateX(10px);
+  background-color: transparent;
+  border: 1px solid #4740a7;
+}
+
+.number__block *{
+  line-height: 1;
+}
+
+.number__block__icon{
+  color: rgba(136, 97, 219, 1);
+  font-size: 25px;
+}

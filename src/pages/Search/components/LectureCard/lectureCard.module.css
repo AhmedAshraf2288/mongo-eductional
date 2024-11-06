@@ -1,0 +1,48 @@
+.card__body {
+    background-color: #f9f9f7;
+    border: 1px solid var(--secondary);
+    border-radius: var(--border-radius);
+    font-size: 20px;
+}
+
+[data-theme="dark"] .card__body {
+    background-color: #161616;
+}
+
+.card__body-lecture-title {
+    border-bottom: 1px solid var(--secondary);
+    padding: 20px;
+    text-align: center;
+}
+
+.card__body-content {
+    padding: 20px;
+}
+
+.card__separator {
+    height: 1px;
+    width: 100%;
+    background-color: var(--secondary);
+    margin: 20px 0;
+}
+
+.card__info {
+    background-color: #4740a7;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border: 1px solid white;
+    color: white;
+    font-size: 16px;
+}
+
+.card__date {
+    position: absolute;
+    bottom: 10px;
+    left: 10px;
+    font-size: 12px;
+    color: rgba(158, 158, 142, 1);
+}
+
+.card__body button {
+    font-size: 18px;
+}

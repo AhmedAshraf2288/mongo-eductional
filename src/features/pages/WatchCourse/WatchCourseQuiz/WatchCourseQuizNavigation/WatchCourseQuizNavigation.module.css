@@ -1,0 +1,39 @@
+.navigation__item {
+  background-color: transparent;
+  border: 1px solid var(--primary);
+  color: var(--primary);
+  width: 52px;
+  height: 34px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.navigation__item--active {
+  background-color: var(--primary);
+  color: #fff;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  flex-wrap: wrap;
+  line-height: 1;
+}
+
+.next_prev {
+  gap: 150px;
+}
+@media (max-width: 769px) {
+  .next_prev {
+    gap: 20px;
+  }
+  .next_prev button {
+    font-size: 15px;
+    width: 150px;
+    padding: 10px;
+  }
+}

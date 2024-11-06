@@ -1,0 +1,69 @@
+.homeLastActivity {
+  background-color: var(--primary);
+  padding: 30px; /* إضافة padding لزيادة المساحة */
+}
+
+[data-theme="dark"] .homeLastActivity {
+  background-color: #73B342 !important;
+}
+
+@media (max-width: 992px) {
+  .homeLastActivity {
+    padding: 20px;
+  }
+
+  .headLine h2 {
+    font-size: 28px;
+  }
+
+  .myCourses {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+
+  .imgCourse img {
+    width: 100%;
+    height: auto;
+  }
+
+  .btnCourse {
+    width: 100%;
+    justify-content: center;
+    margin-top: 15px;
+  }
+
+  .f-size-16 {
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 768px) {
+  .headLine h2 {
+    font-size: 24px;
+  }
+
+  .f-size-16 {
+    font-size: 14px;
+  }
+
+  .imgCourse img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+@media (max-width: 576px) {
+  .headLine h2 {
+    font-size: 20px;
+  }
+
+  .f-size-16 {
+    font-size: 12px;
+  }
+
+  .btnCourse {
+    flex-direction: column;
+    align-items: center;
+  }
+}

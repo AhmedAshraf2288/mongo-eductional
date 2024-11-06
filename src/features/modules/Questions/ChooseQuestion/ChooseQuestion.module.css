@@ -1,0 +1,15 @@
+.dropdown{
+  width: 100%;
+  min-width: 250px;
+  max-width: 300px;
+  
+}
+.question{
+  color : var(--text-dark);
+}
+
+
+.question_img img{
+  max-width: 300px;
+  object-fit: contain;
+}

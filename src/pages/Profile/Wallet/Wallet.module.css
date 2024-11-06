@@ -1,0 +1,206 @@
+.cardWallet {
+    width: 420px;
+    height: 240px;
+    background: linear-gradient(57.67deg, #66A03B 2.15%, #FFA501 97.85%);
+    border-radius: 20px;
+    display: flex;
+    justify-content: start;
+    position: relative;
+}
+
+.imgMangoCard {
+    position: absolute;
+    right: 20px;
+    bottom: 10px;
+    width: 60px;
+    height: 70px;
+    align-self: end;
+}
+
+.imgSimCard {
+    position: absolute;
+    z-index: 20;
+    width: 41.43px;
+    height: 29.53px;
+    left: 30px;
+    bottom: 100px;
+
+}
+
+.shippingHistory {
+    max-width: 884px;
+}
+
+.imgCard1 {
+    position: absolute;
+    width: 200.13px;
+    height: 178.37px;
+    top: 0;
+    right: 0;
+    opacity: 27%;
+
+}
+
+.imgCard2 {
+    position: absolute;
+    width: 419.99px;
+    height: 169.42px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+
+}
+
+.imgCard3 {
+    position: absolute;
+    width: 129.38px;
+    height: 110.9px;
+    top: 0;
+    left: 0;
+    opacity: 27%;
+
+}
+
+.imgCard4 {
+    position: absolute;
+    width: 176.66px;
+    height: 73.36px;
+    bottom: 0;
+    right: 100px;
+    opacity: 33%;
+}
+
+.imgCard5 {
+    position: absolute;
+    width: 119.05px;
+    height: 240.94px;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 27%;
+}
+
+.textCard {
+    top: 40px;
+}
+
+.shippingHistory {
+    padding: 20px;
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .shippingHistory {
+        padding: 10px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .dateOperation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dateOperation span {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .shippingHistory {
+        padding: 15px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .dateOperation {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+.shippingHistory {
+    border-radius: 8px;
+}
+
+@media (max-width: 768px) {
+    .shippingHistory {
+        padding: 10px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .dateOperation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dateOperation span {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .shippingHistory {
+        padding: 15px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .dateOperation {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .shippingHistory {
+        padding: 10px;
+    }
+
+    .price {
+        font-size: 14px;
+    }
+
+    .dateOperation {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .dateOperation span {
+        margin-bottom: 5px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1024px) {
+    .shippingHistory {
+        padding: 15px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .dateOperation {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+
+
+/* Dark Mode */
+
+[data-theme="dark"] .shippingHistory {
+    background-color: #121212;
+    color: #ffffff;
+}

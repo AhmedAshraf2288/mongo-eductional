@@ -1,0 +1,126 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.nav {
+  background-color: #F3FFE3;
+  padding: 20px;
+  z-index: 1000;
+  top: 0;
+  right: 0;
+  left: 0;
+  width: 100%;
+  position: relative;
+  transition: all 1s ease;
+}
+
+.nav.fixed {
+  animation: navTop .5s ease forwards;
+}
+
+.nav__logo {
+  width: 70px;
+}
+
+.nav__logo img {
+  width: 80px;
+  height: 60px;
+}
+
+
+
+
+
+
+
+.btnRegisterNav,
+.btnLoginNav {
+  width: 160px;
+  height: 55px;
+}
+
+.btnRegisterNav img,
+.btnLoginNav img {
+  width: 32px;
+  height: 32px;
+}
+
+
+
+
+
+
+[data-theme="dark"] nav {
+  background-color: #1B1B1B !important;
+}
+
+
+
+[data-theme="dark"] .btnLoginNav {
+  color: #73B342 !important;
+}
+
+
+
+[data-theme="dark"] .btnRegisterNav {
+  background-color: #1B1B1B !important;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+  .nav__logo {
+    width: 70px;
+  }
+
+  .nav {
+    padding: 16px;
+  }
+}
+
+.nav__login_icon {
+  width: 22px !important;
+}
+
+
+
+
+@media (max-width: 767px) {
+  .nav__active :global(.nav-menu) {
+    position: absolute;
+    top: 80px;
+    right: 0;
+    left: 0;
+    display: flex !important;
+    flex-direction: column;
+    padding: 1.5rem;
+    background-color: #fff;
+    border-bottom: 1px solid #1d1c1d32;
+  }
+
+  .nav__active :global(.nav-menu a) {
+    width: 100%;
+    flex-direction: row-reverse !important;
+    justify-content: flex-end !important;
+    gap: 1rem !important;
+  }
+}
+
+@keyframes navTop {
+  from {
+    transform: translateY(80px);
+    opacity: 0.9;
+  }
+
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}

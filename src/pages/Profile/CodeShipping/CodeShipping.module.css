@@ -1,0 +1,74 @@
+/* CodeShipping.module.css */
+.code_shipping__input {
+  max-width: 400px;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.code_shipping__btn {
+  max-width: 260px !important;
+  background-color: #FFA501;
+  color: #121212;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  text-align: center;
+}
+
+.code_shipping__btn:hover {
+  background-color: #FFA501;
+}
+
+/* Media Queries */
+@media (max-width: 576px) {
+  .code_shipping__input {
+    max-width: 100%;
+  }
+  .code_shipping__btn {
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 577px) and (max-width: 768px) {
+  .code_shipping__input {
+    max-width: 80%;
+  }
+  .code_shipping__btn {
+    max-width: 80%;
+  }
+}
+
+@media (min-width: 769px) and (max-width: 992px) {
+  .code_shipping__input {
+    max-width: 60%;
+  }
+  .code_shipping__btn {
+    max-width: 60%;
+  }
+}
+
+@media (min-width: 993px) {
+  .code_shipping__input {
+    max-width: 50%;
+  }
+  .code_shipping__btn {
+    max-width: 50%;
+  }
+}
+
+
+/* Dark Mode */
+[data-theme="dark"] .code_shipping__input {
+  color: #fff ;
+}
+[data-theme="dark"] .headText {
+  color: #fff ;
+}
+[data-theme="dark"] .code_shipping__btn {
+  color: #fff  ;
+}
+
+[data-theme="dark"] .code_shipping__btn:hover {
+  background-color: #FFA501;
+}

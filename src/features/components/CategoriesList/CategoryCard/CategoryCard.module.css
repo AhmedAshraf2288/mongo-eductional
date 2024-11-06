@@ -1,0 +1,70 @@
+.boxLevels {
+  max-width: 424px;
+  max-height: 140px;
+  background-color: #EEFFEE;
+  border-radius: 12px;
+  padding: 45px 80px;
+  margin: auto;
+  position: relative;
+}
+
+.dotbox1,
+.dotbox2,
+.dotbox3,
+.dotbox4 {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.dotbox1 {
+  top: 15px;
+  right: 25px;
+}
+
+.dotbox2 {
+  top: 15px;
+  left: 25px;
+}
+
+.dotbox3 {
+  bottom: 15px;
+  right: 25px;
+}
+
+.dotbox4 {
+  bottom: 15px;
+  left: 25px;
+}
+
+@media (max-width: 768px) {
+  .boxLevels {
+    max-width: 90%;
+    padding: 30px 20px;
+  }
+
+  .dotbox1,
+  .dotbox2,
+  .dotbox3,
+  .dotbox4 {
+    width: 8px;
+    height: 8px;
+  }
+}
+
+@media (max-width: 480px) {
+  .boxLevels {
+    max-width: 100%;
+    padding: 20px 10px;
+  }
+
+  .dotbox1,
+  .dotbox2,
+  .dotbox3,
+  .dotbox4 {
+    width: 6px;
+    height: 6px;
+  }
+}

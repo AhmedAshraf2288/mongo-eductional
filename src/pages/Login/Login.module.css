@@ -1,0 +1,73 @@
+.loginPage {
+  background-color: var(--bg-home);
+  height: 1040px;
+}
+
+.formLogin {
+  height: 697px;
+  top: 100px;
+}
+
+
+
+
+
+
+
+
+
+.btnLogin {
+  color: black;
+  background-color: var(--text-Home);
+  border: 1px solid var(--text-Home);
+}
+
+.switchToggler {
+  width: 68px;
+  height: 34px;
+  padding: 2px;
+  border: 1px solid #9E9E8E;
+  border-radius: 34px;
+  cursor: pointer;
+  display: flex;
+  position: relative;
+}
+
+.switchToggler span {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: #9E9E8E;
+  display: block;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  transform: translateX(0%);
+  transition-duration: 0.2s;
+}
+
+.switchToggler.active span {
+  left: calc(100% - 2px);
+  transform: translateX(-100%);
+  background-color: var(--primary);
+}
+
+[data-theme="dark"] .link,
+.link,
+.loginPage {
+  color: var(--primary) !important;
+}
+
+[data-theme="dark"] .loginPage {
+  background-color: black;
+  box-shadow: 0 0 15px black;
+}
+
+.newAccount_link {
+  color: var(--red) !important;
+}
+
+[data-theme="dark"] .newAccount_link {
+  color: var(--red) !important;
+
+}

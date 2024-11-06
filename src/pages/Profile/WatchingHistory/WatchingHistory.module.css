@@ -1,0 +1,38 @@
+.myCourses {
+    display: flex;
+    width: 939px;
+    height: 168px;
+    border-radius: 12px;
+    background-color: #EEFFEE;
+    padding: 24px;
+    border: 1px solid #12121226;
+}
+
+.imgCourse {
+    width: 183px;
+    height: 120px;
+    border-radius: 12px;
+    overflow: hidden;
+}
+
+
+.textCourse {
+    width: 628px;
+
+}
+
+.textHead {
+    font-size: 14px;
+    color: #797979;
+    font-weight: 400;
+}
+.dateCourse{
+    color: #121212;
+    font-size: 16px;
+    font-weight: 500;
+}
+.minuteCourse{
+    color: #FFA501;
+    font-size: 18px;
+    font-weight: 700;
+}

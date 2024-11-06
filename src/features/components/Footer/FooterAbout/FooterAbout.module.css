@@ -1,0 +1,11 @@
+.footer__logo{
+  width: 300px;
+}
+
+.footer__logo img{
+  width: 100%;
+}
+
+.footer__about__text{
+  margin: 20px 0;
+}

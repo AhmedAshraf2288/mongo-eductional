@@ -1,0 +1,33 @@
+.sidebar {
+    border-top-left-radius: 50px;
+    border-bottom-left-radius: 50px;
+    background-color: #3D7F58;
+    height: 1276px;
+
+}
+
+
+.btnSelect {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    background-color: #FFA501;
+    border-radius: 12px;
+    padding: 20px 40px;
+    color: white;
+}
+
+.btnSelect img {
+    width: 24px;
+    height: 24px;
+}
+
+ .btnSelect:hover{
+    background-color: #f3ba52;
+}
+
+.select .active{
+background-color: red !important;
+}
+
+

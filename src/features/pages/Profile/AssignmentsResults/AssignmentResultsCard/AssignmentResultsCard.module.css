@@ -1,0 +1,9 @@
+.result-card {
+  background-color: var(--primary);
+  border-radius: 15px;
+}
+
+:global([data-theme="dark"]) .result-card {
+  background-color: transparent;
+  border: 1px solid var(--secondary);
+}

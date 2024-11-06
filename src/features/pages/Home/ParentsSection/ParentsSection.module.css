@@ -1,0 +1,63 @@
+.parents_section {
+  overflow: hidden;
+}
+.parents_section_content {
+  background-image: url("/assets/images/section-bg-parents.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 80px;
+  border-radius: 20px;
+}
+
+.parents_section_title {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 51px;
+  margin-bottom: 16px;
+}
+.parents_section_description {
+  line-height: 39.6px;
+  font-size: 22px;
+  font-weight: 400;
+  color: #fff;
+}
+
+.parents_section_btn {
+  padding: 16px 24px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 27px;
+  width: 268px;
+  border-radius: 20px;
+}
+
+@media (max-width: 991px) {
+  .parents_section_content {
+    background-image: url("/assets/images/section-bg-parents.svg");
+    padding: 16px;
+  }
+
+  .parents_section_title {
+    font-size: 16px;
+    line-height: 27px;
+    margin-bottom: 8px;
+  }
+  .parents_section_description {
+    line-height: 21.6px;
+    font-size: 12px;
+  }
+
+  .parents_section_btn {
+    padding: 16px 24px;
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 27px;
+    border: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+    .parents_section_content{
+        background-image: url("/assets/images/section-bg-parents_sm.svg");
+    }
+}

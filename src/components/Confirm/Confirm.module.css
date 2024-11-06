@@ -1,0 +1,12 @@
+.confirm__icon{
+  font-size: 100px;
+  line-height: 50px;
+}
+
+.modal__content{
+  background-color: var(--primary-light);
+}
+
+[data-theme ="dark"] .modal__content{
+  background-color: black !important;
+}

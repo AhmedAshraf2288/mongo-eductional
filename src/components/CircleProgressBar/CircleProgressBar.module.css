@@ -1,0 +1,16 @@
+.circle__cont{
+  width: fit-content;
+}
+
+.circle__background{
+  fill: none;
+  stroke: #C8D7FF;
+}
+
+[data-theme= "dark"] .circle__background{
+  stroke: #001550;
+}
+
+.circle__progress{
+  fill: none;
+}

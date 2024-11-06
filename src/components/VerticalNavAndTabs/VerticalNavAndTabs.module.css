@@ -1,0 +1,101 @@
+@media (min-width: 992px) {
+  .course__sidebar__item {
+    padding: 16px 24px;
+    display: block;
+    cursor: pointer;
+    font-size: 18px;
+    color: #fff !important ;
+  }
+
+  [data-theme="dark"] .course__sidebar__item {
+    color: #000 !important;
+  }
+
+  .course__sidebar__item--active {
+    background-color: var(--primary-dark);
+    color: #000 !important;
+    border-radius: 0 50px 50px 0;
+    position: relative;
+  }
+
+  [data-theme="dark"] .course__sidebar__item--active {
+    color: #fff !important;
+  }
+
+  .course__sidebar__item--active::before {
+    content: "";
+        position: absolute;
+        border-width: 30px;
+        border-style: solid;
+        border-color: #fff;
+        border-radius: 18px;
+        top: -47px;
+        left: -5px;
+        transform: rotate(204deg);
+  }
+  [data-theme="dark"] .course__sidebar__item--active::before{
+    border-color: var(--primary-dark);
+  }
+  .course__sidebar__item--active::after {
+    content: "";
+        position: absolute;
+        border-width: 31px;
+        border-style: solid;
+        border-color: #006ecc #006ecc;
+        border-radius: 0 0 0 25px;
+        top: -62px;
+        left: 0px;
+        transform: rotate(0deg);
+  }
+
+  .course__sidebar__item--active .tab_label::before {
+    content: "";
+    position: absolute;
+    border-width: 25px;
+    border-style: solid;
+    border-color: #fff;
+    border-radius: 18px;
+    top: 44px;
+    left: -3px;
+    transform: rotate(160deg);
+  }
+  [data-theme="dark"] .course__sidebar__item--active .tab_label::before{
+    border-color: var(--primary-dark);
+  }
+
+  .course__sidebar__item--active .tab_label::after {
+    content: "";
+    position: absolute;
+    border-width: 33px;
+    border-style: solid;
+    border-color: #006ecc #006ecc;
+    border-radius: 25px;
+    top: 59px;
+    left: 0px;
+    transform: rotate(-2deg);
+  }
+}
+
+@media (max-width: 991px) {
+  .course__sidebar__item {
+    padding: 16px 24px;
+    display: block;
+    cursor: pointer;
+    transition: 0.3s;
+    font-size: 18px;
+    border-radius: 12px;
+    background-color: var(--primary);
+  }
+
+  [data-theme="dark"] .course__sidebar__item {
+    color: #000 !important;
+  }
+
+  .course__sidebar__item--active {
+    background-color: var(--second-primary);
+    color: #000 !important;
+  }
+  [data-theme="dark"] .course__sidebar__item--active {
+    color: #fff !important;
+  }
+}

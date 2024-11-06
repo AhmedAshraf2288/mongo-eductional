@@ -1,0 +1,33 @@
+.btnAllCourses {
+    max-width: 280px;
+    text-align: center;
+    max-height: 50px;
+    padding: 10px 24px;
+    border-radius: 12px;
+    background-color: #FFA501;
+    color: black;
+    border: none;
+    transition: background-color .5s;
+  }
+  
+  .btnAllCourses:hover {
+    background-color: #d48a00;
+  }
+  
+  [data-theme="dark"] .headTitleCourse {
+    color: white !important;
+  }
+  
+  @media (max-width: 768px) {
+    .btnAllCourses {
+      max-width: 100%; /* جعل الزر بعرض كامل في الشاشات الأصغر */
+      padding: 12px; /* زيادة padding قليلاً */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .btnAllCourses {
+      max-height: 45px; /* تقليل ارتفاع الزر على الشاشات الأصغر */
+      font-size: 16px; /* تغيير حجم الخط */
+    }
+  }

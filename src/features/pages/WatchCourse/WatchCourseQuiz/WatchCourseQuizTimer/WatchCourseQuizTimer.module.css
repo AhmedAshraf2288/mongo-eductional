@@ -1,0 +1,18 @@
+.prog__content {
+  width: fit-content;
+  border-radius: var(--border-radius);
+  /* padding: 20px ; */
+}
+[data-theme="dark"] .prog__content {
+  background-color: #2f3537;
+}
+
+.prog__item{
+  background-color: #fff;
+  /* padding: 20px; */
+  /* width: 150px; */
+  border-radius: var(--border-radius);
+}
+[data-theme="dark"] .prog__item{
+  background-color: #000;
+}

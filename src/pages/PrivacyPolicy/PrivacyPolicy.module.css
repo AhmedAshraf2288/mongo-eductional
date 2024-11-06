@@ -1,0 +1,27 @@
+.privacy_policy {
+  padding: 1.875rem 0;
+}
+.privacy__title {
+  color: var(--primary);
+  font-size: 1.4rem;
+  font-weight: 700;
+  margin-bottom: 1.95rem;
+}
+.privacy_policy__title {
+  font-size: 1.75rem;
+  font-weight: 600;
+}
+
+.privacy__text{
+    font-size: 1.2rem;
+    line-height: 35px;
+}
+
+.privacy__section{
+  margin-top: 1.95rem;
+}
+.privacy__section a{
+  font-size: 1.254rem;
+  font-family: "Cairo", "sans-serif";
+  color: var(--primary) !important;
+}
